@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.product {
+  width: 800px;
+  border: 5px solid #000;
+  margin: 50px auto;
+}
+
+/* Product Info */
+
+.product-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  background-color: #d6d5d6;
+  padding: 20px 50px;
+  margin-top: 0;
+  position: relative;
+  border-bottom: 5px solid #000;
+}
+
+/* Sale Tag pseudo-element */
+
+h2::after {
+  content: "SALE";
+  background-color: #e72f2f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+
+  padding: 6px 15px;
+  position: absolute;
+  top: -14px;
+  left: -36px;
+}
+
+img {
+  margin-bottom: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-container {
+  border-bottom: 5px solid #000;
+}
+
+.product-content {
+  padding: 20px;
+}
+
+.price {
+  padding-top: 8px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.shipping {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 14px;
+}
+
+.product-desc {
+  margin-bottom: 14px;
+}
+
+a {
+  display: block;
+
+  margin-bottom: 30px;
+}
+
+/* Product Color Choices */
+
+.color {
+  display: block;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 8px;
+}
+
+.color:hover {
+  cursor: pointer;
+}
+
+.black {
+  background-color: #000;
+  margin-left: 2px;
+}
+
+.parchment {
+  background-color: #d3ccc2;
+}
+
+.sunflower {
+  background-color: #b46c17;
+}
+
+.summit-sage {
+  background-color: #9f9f8f;
+}
+
+.vapor-violet {
+  background-color: #b4a5bc;
+}
+
+.rhubarb-pie {
+  background-color: #a63642;
+}
+
+.sunny-oasis {
+  background-color: #dbbe87;
+}
+
+.brown {
+  background-color: #4b3027;
+}
+
+.amber-pink {
+  background-color: #c77b9d;
+}
+
+/* Product Details */
+
+.product-details {
+  margin-bottom: 12px;
+}
+
+ul li {
+  margin-left: 24px;
+  line-height: 2rem;
+  list-style: square;
+}
+
+ul li:last-child {
+  margin-bottom: 25px;
+}
+
+/* Cart Button */
+
+.cart-btn {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  border-top: 5px solid #000;
+}
+
+.cart-btn:hover {
+  background-color: #d6d5d6;
+  color: #000;
+}
